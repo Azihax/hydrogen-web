@@ -5,6 +5,9 @@
   "directories": {
     "doc": "doc"
   },
+  "engines": {
+    "node": ">=16"
+  },
   "scripts": {
     "lint": "eslint --cache src/",
     "lint-ts": "eslint src/ -c .ts-eslintrc.js --ext .ts",
